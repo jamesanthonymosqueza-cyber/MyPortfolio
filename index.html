@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Mosqueza | Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#home" class="logo">Port<span>folio</span></a>
+        <ul>
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Tech Stack</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+        </ul>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="home-info">
+            <h1>James Anthony L. Mosqueza</h1>
+            <h2>Frontend Developer</h2>
+            <p>I am a BSIT student learning HTML, CSS, and programming. I want to become a professional developer someday and build modern, responsive websites.</p>
+                <div class="sci">
+                    <a href="https://github.com/jamesanthonymosqueza-cyber" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.facebook.com/J.Arthur017" target="_blank">
+                     <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCs8OfgB_yJwFw-GoJiHTwoA" target="_blank"><i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://www.instagram.com/?hl=en" target="_blank "><i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="Image/James.jpg" alt="Profile Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-info">
+            <h1>About Me</h1>
+            <h3><p>Hello! I'm James Anthony L. Mosqueza, a passionate BSIT student dedicated to mastering the art of web development. With a keen interest in HTML, CSS, and programming, I'm on a journey to become a professional frontend developer.</p></h3>
+            <h3><p>My goal is to create engaging and user-friendly websites that make a difference. When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects, and learning through practical experience.</p></h3>
+        </div>
+        <div class="about-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="Image/Pogi.jpg" alt="About Image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+    <div class="section-heading">
+        <h2>Projects</h2>
+        <p>Some of my recent projects and practice works.</p>
+    </div>
+
+    <div class="service-list">
+        <div class="service-card">
+            <h3>BeatShop E-Commerce Website</h3>
+            <p>An online music store website with a modern user interface.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Personal Portfolio</h3>
+            <p>A responsive portfolio website built using HTML and CSS.</p>
+        </div>
+    </section>
+
+ <section class="education" id="education">
+    <div class="section-heading">
+        <h2>Education</h2>
+        <p>My educational background.</p>
+    </div>
+
+    <div class="service-list">
+        <div class="service-card">
+            <h3>Universidad de Zamboanga</h3>
+            <p>Bachelor of Science in Information Technology</p>
+            <p>2025 - Present</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Kabasalan Science and Technology High School</h3>
+            <p>HUMSS- Humanities, Social Sciences</p>
+            <p>2024-2025 Senior High School Graduate</p>
+        </div>
+    </div>
+</section>
+
+   <section class="skills" id="skills">
+    <div class="section-heading">
+        <h2>Tech Stack</h2>
+        <p>My main development technologies and tools.</p>
+    </div>
+
+    <div class="skills-grid">
+        <div class="skill-card">
+            <i class="fab fa-html5"></i>
+            <p>HTML</p>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-css3-alt"></i>
+            <p>CSS</p>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-js"></i>
+            <p>JavaScript</p>
+        </div>
+
+        <div class="skill-card">
+            <i class="devicon-cplusplus-plain"></i>
+            <p>C++</p>
+        </div>
+
+        <div class="skill-card">
+            <i class="devicon-csharp-plain"></i>
+            <p>C#</p>
+        </div>
+    </div>
+</section>
+    <section class="contact" id="contact">
+        <div class="section-heading">
+            <h2>Contact</h2>
+            <p>Let’s work together on your next project.</p>
+        </div>
+        <div class="contact-info">
+            <div>
+                <h3>Email</h3>
+                <p>mosquezajamesanthony@gmail.com</p>
+            </div>
+            <div>
+                <h3>Location</h3>
+                <p>Philippines</p>
+            </div>
+            <div>
+                <h3>Phone</h3>
+                <p>+63 966 732 7204</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+    <p>© 2026 James Anthony L. Mosqueza. All Rights Reserved.</p>
+</footer>
+
+    <script>
+        const sections = document.querySelectorAll('section[id]');
+        const navItems = document.querySelectorAll('.navbar ul li');
+
+        window.addEventListener('scroll', () => {
+            let currentSection = 'home';
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 150;
+                if (pageYOffset >= sectionTop) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+
+            navItems.forEach(item => {
+                item.classList.remove('active');
+                const link = item.querySelector('a');
+                if (link && link.getAttribute('href') === `#${currentSection}`) {
+                    item.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
