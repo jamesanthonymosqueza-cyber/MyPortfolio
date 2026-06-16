@@ -62,7 +62,7 @@ nav{
     color: var(--green-color);
 }
 section{
-    padding: 120px 9% 80px;
+    padding: 180px 9% 80px;
     position: relative;
 }
 .section-heading{
@@ -84,7 +84,7 @@ section{
     align-items: center;
     justify-content: space-between;
     min-height: 100vh;
-    padding-top: 120px;
+    padding-top: 180px;
 }
 .home-info{
     max-width: 520px;
@@ -336,7 +336,7 @@ section{
         grid-template-columns: repeat(2, minmax(200px, 1fr));
     }
 }
-@media (max-width: 760px) {
+@media (max-width: 768px) {
     nav{
         padding: 18px 6%;
     }
