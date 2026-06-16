@@ -367,3 +367,84 @@ section{
         text-align: center;
     }
 }
+/* Mobile Responsive */
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .navbar ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .navbar ul li {
+        margin: 5px;
+    }
+
+    .home,
+    .about {
+        flex-direction: column;
+        text-align: center;
+        padding: 100px 20px 50px;
+    }
+
+    .home-info,
+    .about-info {
+        width: 100%;
+    }
+
+    .home-img,
+    .about-img {
+        margin-top: 30px;
+    }
+
+    .img-box {
+        width: 250px;
+        height: 250px;
+        margin: auto;
+    }
+
+    .img-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .service-list,
+    .skills-grid,
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .service-card,
+    .skill-card {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.95rem;
+    }
+
+    .sci {
+        justify-content: center;
+    }
+
+    footer {
+        text-align: center;
+        padding: 15px;
+    }
+}
